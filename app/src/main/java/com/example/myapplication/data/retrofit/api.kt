@@ -13,6 +13,6 @@ private fun createRetrofit(): Retrofit {
         .Builder()
         .addConverterFactory(MoshiConverterFactory.create())
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-        .baseUrl("http://sd2-hiring.herokuapp.com/")
+        .baseUrl("https://s3-us-west-2.amazonaws.com/")
         .build()
 }
